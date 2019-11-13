@@ -1,0 +1,114 @@
+25-Sep-2019 21:37:09.890 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+25-Sep-2019 21:37:09.894 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+25-Sep-2019 21:37:09.894 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+25-Sep-2019 21:37:09.894 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+25-Sep-2019 21:37:09.895 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+25-Sep-2019 21:37:09.895 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+25-Sep-2019 21:37:09.895 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+25-Sep-2019 21:37:09.896 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+25-Sep-2019 21:37:09.896 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Sep-2019 21:37:09.896 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+25-Sep-2019 21:37:09.896 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+25-Sep-2019 21:37:09.899 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/logging.properties
+25-Sep-2019 21:37:09.899 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Sep-2019 21:37:09.900 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Braulios-MBP
+25-Sep-2019 21:37:09.900 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Sep-2019 21:37:09.900 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Sep-2019 21:37:09.900 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Sep-2019 21:37:09.901 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Sep-2019 21:37:09.901 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+25-Sep-2019 21:37:09.901 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+25-Sep-2019 21:37:09.901 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/temp
+25-Sep-2019 21:37:09.901 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/boyarce/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+25-Sep-2019 21:37:10.268 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+25-Sep-2019 21:37:10.354 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Sep-2019 21:37:10.520 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2019 21:37:10.525 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Sep-2019 21:37:10.527 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1903 ms
+25-Sep-2019 21:37:10.681 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+25-Sep-2019 21:37:10.682 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+25-Sep-2019 21:37:10.701 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml]
+25-Sep-2019 21:37:12.231 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml] has finished in [1.528] ms
+25-Sep-2019 21:37:12.232 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/NumeroUno.xml]
+25-Sep-2019 21:37:12.857 GRAVE [localhost-startStop-1] org.apache.catalina.session.StandardManager.startInternal Excepción cargando sesiones desde almacenamiento persistente
+	java.lang.ClassCastException: java.io.ObjectStreamClass cannot be cast to java.lang.String
+		at java.io.ObjectInputStream.readTypeString(ObjectInputStream.java:1650)
+		at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:803)
+		at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:891)
+		at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1857)
+		at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2042)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+		at java.util.ArrayList.readObject(ArrayList.java:797)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1170)
+		at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2178)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+		at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1581)
+		at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1057)
+		at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:217)
+		at org.apache.catalina.session.StandardManager.load(StandardManager.java:161)
+		at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:351)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5182)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1823)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+25-Sep-2019 21:37:12.862 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/NumeroUno.xml] has finished in [630] ms
+25-Sep-2019 21:37:12.863 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] de la aplicación web
+25-Sep-2019 21:37:13.617 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] has finished in [754] ms
+25-Sep-2019 21:37:13.618 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] de la aplicación web
+25-Sep-2019 21:37:14.166 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] has finished in [546] ms
+25-Sep-2019 21:37:14.168 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] de la aplicación web
+25-Sep-2019 21:37:15.333 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] has finished in [1.155] ms
+25-Sep-2019 21:37:15.339 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] de la aplicación web
+25-Sep-2019 21:37:15.726 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] has finished in [387] ms
+25-Sep-2019 21:37:15.727 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] de la aplicación web
+25-Sep-2019 21:37:16.105 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] has finished in [377] ms
+25-Sep-2019 21:37:16.113 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+25-Sep-2019 21:37:16.144 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2019 21:37:16.152 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 5620 ms
+25-Sep-2019 21:37:43.130 INFORMACIÓN [http-nio-8081-exec-9] cl.duoc.dej.controller.LoginServlet.processRequest VALIDATE
+25-Sep-2019 21:37:43.131 INFORMACIÓN [http-nio-8081-exec-9] cl.duoc.dej.controller.LoginServlet.processRequest LOGIN SUCCESS
+25-Sep-2019 21:37:43.131 INFORMACIÓN [http-nio-8081-exec-9] cl.duoc.dej.controller.LoginServlet.processRequest REDIRECT TO HOME
+25-Sep-2019 21:37:50.760 INFORMACIÓN [http-nio-8081-exec-11] cl.duoc.dej.controller.CreateTipoServlet.processRequest INGRESAR TIPOS
+25-Sep-2019 21:38:18.210 INFORMACIÓN [http-nio-8081-exec-15] cl.duoc.dej.controller.CreateEmpleadoServlet.processRequest INGRESAR TIPOS
+25-Sep-2019 21:42:46.293 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto [/NumeroUno]
+25-Sep-2019 21:42:46.294 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/NumeroUno]
+25-Sep-2019 21:42:46.447 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+25-Sep-2019 21:46:50.366 INFORMACIÓN [http-nio-8081-exec-23] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/NumeroUno]
+25-Sep-2019 21:46:50.547 INFORMACIÓN [http-nio-8081-exec-23] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+25-Sep-2019 21:47:03.999 INFORMACIÓN [http-nio-8081-exec-16] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/NumeroUno]
+25-Sep-2019 21:47:04.146 INFORMACIÓN [http-nio-8081-exec-16] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+25-Sep-2019 21:47:27.597 INFORMACIÓN [http-nio-8081-exec-23] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/NumeroUno]
+25-Sep-2019 21:47:27.863 INFORMACIÓN [http-nio-8081-exec-23] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+25-Sep-2019 21:47:36.276 INFORMACIÓN [http-nio-8081-exec-28] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/NumeroUno]
+25-Sep-2019 21:47:36.509 INFORMACIÓN [http-nio-8081-exec-28] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+25-Sep-2019 21:48:21.975 INFORMACIÓN [http-nio-8081-exec-20] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/NumeroUno]
+25-Sep-2019 21:48:22.266 INFORMACIÓN [http-nio-8081-exec-20] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+25-Sep-2019 21:48:51.743 INFORMACIÓN [65] cl.duoc.dej.controller.CreateTipoServlet.processRequest INGRESAR TIPOS
+25-Sep-2019 21:48:59.925 INFORMACIÓN [http-nio-8081-exec-26] cl.duoc.dej.controller.CreateTipoServlet.processRequest INGRESAR TIPOS
+25-Sep-2019 21:49:21.605 INFORMACIÓN [http-nio-8081-exec-30] cl.duoc.dej.controller.CreateEmpleadoServlet.processRequest INGRESAR TIPOS
+25-Sep-2019 21:49:25.177 INFORMACIÓN [http-nio-8081-exec-32] cl.duoc.dej.controller.DeleteEmpleadoServlet.processRequest DELETE EMPLEADO
+25-Sep-2019 22:00:15.648 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+25-Sep-2019 22:00:15.649 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+25-Sep-2019 22:00:15.661 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2019 22:00:15.667 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+25-Sep-2019 22:00:15.723 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+25-Sep-2019 22:00:15.729 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2019 22:00:15.732 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+25-Sep-2019 22:00:15.733 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

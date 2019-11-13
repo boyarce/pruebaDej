@@ -1,0 +1,1492 @@
+10-Sep-2019 19:37:50.651 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+10-Sep-2019 19:37:50.657 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+10-Sep-2019 19:37:50.658 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+10-Sep-2019 19:37:50.658 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Sep-2019 19:37:50.658 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+10-Sep-2019 19:37:50.659 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Sep-2019 19:37:50.659 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+10-Sep-2019 19:37:50.659 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+10-Sep-2019 19:37:50.659 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Sep-2019 19:37:50.660 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 19:37:50.661 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 19:37:50.663 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/logging.properties
+10-Sep-2019 19:37:50.665 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Sep-2019 19:37:50.665 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Braulios-MBP
+10-Sep-2019 19:37:50.665 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Sep-2019 19:37:50.666 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Sep-2019 19:37:50.666 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Sep-2019 19:37:50.672 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Sep-2019 19:37:50.672 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 19:37:50.673 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 19:37:50.673 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/temp
+10-Sep-2019 19:37:50.673 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/boyarce/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Sep-2019 19:37:51.031 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 19:37:51.092 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 19:37:51.140 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 19:37:51.143 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 19:37:51.148 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2604 ms
+10-Sep-2019 19:37:51.244 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+10-Sep-2019 19:37:51.245 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+10-Sep-2019 19:37:51.307 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml]
+10-Sep-2019 19:37:51.389 ADVERTENCIA [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Se ha especificado un docBase [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/D:\apache-tomcat-8.5.43\MySite\build\web] dentro del appBase de la máquina y será ignorado
+10-Sep-2019 19:37:51.453 GRAVE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/MySite]]
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1823)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@315e7aad]
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4814)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4949)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+		... 10 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/MySite] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+		... 13 more
+10-Sep-2019 19:37:51.455 GRAVE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml]
+	java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/MySite]]
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:747)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1823)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 19:37:51.459 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml] has finished in [150] ms
+10-Sep-2019 19:37:51.460 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] de la aplicación web
+10-Sep-2019 19:37:53.934 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] has finished in [2.473] ms
+10-Sep-2019 19:37:53.935 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] de la aplicación web
+10-Sep-2019 19:37:55.339 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] has finished in [1.404] ms
+10-Sep-2019 19:37:55.340 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] de la aplicación web
+10-Sep-2019 19:37:56.024 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] has finished in [684] ms
+10-Sep-2019 19:37:56.025 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] de la aplicación web
+10-Sep-2019 19:37:56.248 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] has finished in [223] ms
+10-Sep-2019 19:37:56.249 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] de la aplicación web
+10-Sep-2019 19:37:56.529 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] has finished in [281] ms
+10-Sep-2019 19:37:56.537 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 19:37:56.568 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 19:37:56.576 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 5428 ms
+10-Sep-2019 19:45:35.498 INFORMACIÓN [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/MySite]
+10-Sep-2019 19:45:35.550 INFORMACIÓN [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml]
+10-Sep-2019 19:45:35.778 INFORMACIÓN [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml] has finished in [228] ms
+10-Sep-2019 19:45:35.788 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/MySite]] after start() had already been called. The second call will be ignored.
+10-Sep-2019 19:46:23.130 INFORMACIÓN [http-nio-8080-exec-9] cl.duoc.dej.controller.LoginServlet.processRequest VALIDATE
+10-Sep-2019 19:46:23.131 INFORMACIÓN [http-nio-8080-exec-9] cl.duoc.dej.controller.LoginServlet.processRequest LOGIN SUCCESS
+10-Sep-2019 19:46:23.132 INFORMACIÓN [http-nio-8080-exec-9] cl.duoc.dej.controller.LoginServlet.processRequest REDIRECT TO HOME
+10-Sep-2019 19:46:37.846 INFORMACIÓN [http-nio-8080-exec-11] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 19:46:40.927 INFORMACIÓN [http-nio-8080-exec-14] cl.duoc.dej.controller.DeleteRegionServlet.processRequest DELETE REGION
+10-Sep-2019 19:49:08.011 INFORMACIÓN [http-nio-8080-exec-19] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 19:49:31.552 INFORMACIÓN [http-nio-8080-exec-12] cl.duoc.dej.controller.DeleteRegionServlet.processRequest DELETE REGION
+10-Sep-2019 19:50:36.860 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/tomcat-users.xml]
+10-Sep-2019 19:51:00.972 INFORMACIÓN [http-nio-8080-exec-16] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/MySite]
+10-Sep-2019 19:51:01.972 INFORMACIÓN [http-nio-8080-exec-16] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+10-Sep-2019 19:51:10.641 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+10-Sep-2019 19:51:10.642 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 19:51:10.655 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 19:51:10.662 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+10-Sep-2019 19:51:10.729 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 19:51:10.734 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 19:51:10.736 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 19:51:10.737 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 19:51:29.159 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+10-Sep-2019 19:51:29.166 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+10-Sep-2019 19:51:29.166 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+10-Sep-2019 19:51:29.167 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Sep-2019 19:51:29.167 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+10-Sep-2019 19:51:29.167 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Sep-2019 19:51:29.168 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+10-Sep-2019 19:51:29.168 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+10-Sep-2019 19:51:29.168 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Sep-2019 19:51:29.168 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 19:51:29.169 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 19:51:29.170 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/logging.properties
+10-Sep-2019 19:51:29.171 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Sep-2019 19:51:29.171 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Braulios-MBP
+10-Sep-2019 19:51:29.171 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Sep-2019 19:51:29.171 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Sep-2019 19:51:29.171 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Sep-2019 19:51:29.171 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Sep-2019 19:51:29.171 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 19:51:29.172 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 19:51:29.172 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/temp
+10-Sep-2019 19:51:29.172 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/boyarce/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Sep-2019 19:51:29.513 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 19:51:29.598 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 19:51:29.711 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 19:51:29.733 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 19:51:29.755 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2011 ms
+10-Sep-2019 19:51:29.837 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+10-Sep-2019 19:51:29.837 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+10-Sep-2019 19:51:29.852 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml]
+10-Sep-2019 19:51:31.602 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml] has finished in [1.747] ms
+10-Sep-2019 19:51:31.603 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] de la aplicación web
+10-Sep-2019 19:51:32.284 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] has finished in [681] ms
+10-Sep-2019 19:51:32.284 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] de la aplicación web
+10-Sep-2019 19:51:32.631 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] has finished in [346] ms
+10-Sep-2019 19:51:32.631 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] de la aplicación web
+10-Sep-2019 19:51:33.750 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] has finished in [1.118] ms
+10-Sep-2019 19:51:33.751 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] de la aplicación web
+10-Sep-2019 19:51:34.076 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] has finished in [325] ms
+10-Sep-2019 19:51:34.077 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] de la aplicación web
+10-Sep-2019 19:51:34.526 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] has finished in [450] ms
+10-Sep-2019 19:51:34.533 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 19:51:34.548 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 19:51:34.551 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 4792 ms
+10-Sep-2019 19:51:35.874 INFORMACIÓN [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/MySite]
+10-Sep-2019 19:51:35.944 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml]
+10-Sep-2019 19:51:36.285 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml] has finished in [341] ms
+10-Sep-2019 19:51:36.306 INFORMACIÓN [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/MySite]] after start() had already been called. The second call will be ignored.
+10-Sep-2019 19:52:59.342 INFORMACIÓN [http-nio-8080-exec-12] cl.duoc.dej.controller.LoginServlet.processRequest VALIDATE
+10-Sep-2019 19:52:59.343 INFORMACIÓN [http-nio-8080-exec-12] cl.duoc.dej.controller.LoginServlet.processRequest LOGIN SUCCESS
+10-Sep-2019 19:52:59.344 INFORMACIÓN [http-nio-8080-exec-12] cl.duoc.dej.controller.LoginServlet.processRequest REDIRECT TO HOME
+10-Sep-2019 19:53:07.977 INFORMACIÓN [http-nio-8080-exec-16] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 19:53:09.071 INFORMACIÓN [http-nio-8080-exec-14] cl.duoc.dej.controller.DeleteRegionServlet.processRequest DELETE REGION
+10-Sep-2019 19:53:11.667 INFORMACIÓN [http-nio-8080-exec-19] cl.duoc.dej.controller.DeleteRegionServlet.processRequest DELETE REGION
+10-Sep-2019 19:53:11.673 ADVERTENCIA [http-nio-8080-exec-19] cl.duoc.dej.controller.DeleteRegionServlet.processRequest No value present
+	java.util.NoSuchElementException: No value present
+		at java.util.Optional.get(Optional.java:135)
+		at cl.duoc.dej.controller.DeleteRegionServlet.processRequest(DeleteRegionServlet.java:51)
+		at cl.duoc.dej.controller.DeleteRegionServlet.doGet(DeleteRegionServlet.java:74)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 19:54:47.612 INFORMACIÓN [http-nio-8080-exec-19] cl.duoc.dej.controller.LoginServlet.processRequest VALIDATE
+10-Sep-2019 19:54:47.614 INFORMACIÓN [http-nio-8080-exec-19] cl.duoc.dej.controller.LoginServlet.processRequest LOGIN SUCCESS
+10-Sep-2019 19:54:47.614 INFORMACIÓN [http-nio-8080-exec-19] cl.duoc.dej.controller.LoginServlet.processRequest REDIRECT TO HOME
+10-Sep-2019 19:57:00.067 INFORMACIÓN [http-nio-8080-exec-14] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 19:57:00.067 ADVERTENCIA [http-nio-8080-exec-14] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "1564448383772571"
+	java.lang.NumberFormatException: For input string: "1564448383772571"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:583)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 19:57:08.132 INFORMACIÓN [http-nio-8080-exec-11] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 19:57:08.132 ADVERTENCIA [http-nio-8080-exec-11] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "1564448383772571"
+	java.lang.NumberFormatException: For input string: "1564448383772571"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:583)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 19:57:13.240 INFORMACIÓN [http-nio-8080-exec-12] cl.duoc.dej.controller.LoginServlet.processRequest VALIDATE
+10-Sep-2019 19:57:13.240 INFORMACIÓN [http-nio-8080-exec-12] cl.duoc.dej.controller.LoginServlet.processRequest LOGIN SUCCESS
+10-Sep-2019 19:57:13.241 INFORMACIÓN [http-nio-8080-exec-12] cl.duoc.dej.controller.LoginServlet.processRequest REDIRECT TO HOME
+10-Sep-2019 19:57:19.281 INFORMACIÓN [http-nio-8080-exec-13] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 19:57:19.282 ADVERTENCIA [http-nio-8080-exec-13] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "dfas"
+	java.lang.NumberFormatException: For input string: "dfas"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 19:58:04.020 INFORMACIÓN [http-nio-8080-exec-20] cl.duoc.dej.controller.LoginServlet.processRequest VALIDATE
+10-Sep-2019 19:58:04.021 INFORMACIÓN [http-nio-8080-exec-20] cl.duoc.dej.controller.LoginServlet.processRequest LOGIN SUCCESS
+10-Sep-2019 19:58:04.021 INFORMACIÓN [http-nio-8080-exec-20] cl.duoc.dej.controller.LoginServlet.processRequest REDIRECT TO HOME
+10-Sep-2019 19:58:09.014 INFORMACIÓN [http-nio-8080-exec-19] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 19:58:09.014 ADVERTENCIA [http-nio-8080-exec-19] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "sda"
+	java.lang.NumberFormatException: For input string: "sda"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 19:58:40.345 INFORMACIÓN [http-nio-8080-exec-17] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 19:58:40.346 ADVERTENCIA [http-nio-8080-exec-17] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "1564448383772571"
+	java.lang.NumberFormatException: For input string: "1564448383772571"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:583)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 19:59:39.042 INFORMACIÓN [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/MySite]
+10-Sep-2019 19:59:39.764 INFORMACIÓN [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+10-Sep-2019 19:59:41.608 INFORMACIÓN [http-nio-8080-exec-11] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 19:59:41.609 ADVERTENCIA [http-nio-8080-exec-11] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "sda"
+	java.lang.NumberFormatException: For input string: "sda"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 19:59:59.894 INFORMACIÓN [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/MySite]
+10-Sep-2019 20:00:00.332 INFORMACIÓN [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+10-Sep-2019 20:00:14.401 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/MySite]
+10-Sep-2019 20:00:14.761 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+10-Sep-2019 20:00:33.041 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+10-Sep-2019 20:00:33.042 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:00:33.055 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:00:33.062 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+10-Sep-2019 20:00:33.106 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:00:33.111 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:00:33.113 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:00:33.114 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:00:39.345 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+10-Sep-2019 20:00:39.349 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+10-Sep-2019 20:00:39.349 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+10-Sep-2019 20:00:39.349 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Sep-2019 20:00:39.349 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+10-Sep-2019 20:00:39.349 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Sep-2019 20:00:39.349 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+10-Sep-2019 20:00:39.351 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+10-Sep-2019 20:00:39.351 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Sep-2019 20:00:39.351 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:00:39.352 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:00:39.353 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/logging.properties
+10-Sep-2019 20:00:39.354 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Sep-2019 20:00:39.354 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Braulios-MBP
+10-Sep-2019 20:00:39.354 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Sep-2019 20:00:39.354 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Sep-2019 20:00:39.354 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Sep-2019 20:00:39.357 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Sep-2019 20:00:39.358 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:00:39.358 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:00:39.358 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/temp
+10-Sep-2019 20:00:39.359 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/boyarce/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Sep-2019 20:00:39.714 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:00:39.803 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 20:00:39.847 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:00:39.870 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 20:00:39.880 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1851 ms
+10-Sep-2019 20:00:39.975 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+10-Sep-2019 20:00:39.975 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+10-Sep-2019 20:00:39.992 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml]
+10-Sep-2019 20:00:41.679 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml] has finished in [1.685] ms
+10-Sep-2019 20:00:41.680 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] de la aplicación web
+10-Sep-2019 20:00:42.407 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] has finished in [727] ms
+10-Sep-2019 20:00:42.408 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] de la aplicación web
+10-Sep-2019 20:00:42.923 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] has finished in [515] ms
+10-Sep-2019 20:00:42.924 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] de la aplicación web
+10-Sep-2019 20:00:43.697 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] has finished in [773] ms
+10-Sep-2019 20:00:43.699 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] de la aplicación web
+10-Sep-2019 20:00:44.016 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] has finished in [318] ms
+10-Sep-2019 20:00:44.017 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] de la aplicación web
+10-Sep-2019 20:00:44.299 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] has finished in [282] ms
+10-Sep-2019 20:00:44.307 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:00:44.318 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:00:44.320 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 4439 ms
+10-Sep-2019 20:00:51.199 INFORMACIÓN [http-nio-8080-exec-9] cl.duoc.dej.controller.LoginServlet.processRequest VALIDATE
+10-Sep-2019 20:00:51.201 INFORMACIÓN [http-nio-8080-exec-9] cl.duoc.dej.controller.LoginServlet.processRequest LOGIN SUCCESS
+10-Sep-2019 20:00:51.202 INFORMACIÓN [http-nio-8080-exec-9] cl.duoc.dej.controller.LoginServlet.processRequest REDIRECT TO HOME
+10-Sep-2019 20:01:02.175 INFORMACIÓN [http-nio-8080-exec-3] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:28:25.915 INFORMACIÓN [http-nio-8080-exec-6] cl.duoc.dej.controller.LoginServlet.processRequest VALIDATE
+10-Sep-2019 20:28:25.916 INFORMACIÓN [http-nio-8080-exec-6] cl.duoc.dej.controller.LoginServlet.processRequest LOGIN SUCCESS
+10-Sep-2019 20:28:25.917 INFORMACIÓN [http-nio-8080-exec-6] cl.duoc.dej.controller.LoginServlet.processRequest REDIRECT TO HOME
+10-Sep-2019 20:29:41.259 INFORMACIÓN [http-nio-8080-exec-9] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:29:41.262 ADVERTENCIA [http-nio-8080-exec-9] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "dfas"
+	java.lang.NumberFormatException: For input string: "dfas"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 20:29:57.598 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+10-Sep-2019 20:29:57.600 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:29:57.616 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:29:57.618 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+10-Sep-2019 20:29:57.702 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:29:57.708 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:29:57.712 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:29:57.713 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:30:48.700 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+10-Sep-2019 20:30:48.711 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+10-Sep-2019 20:30:48.711 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+10-Sep-2019 20:30:48.711 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Sep-2019 20:30:48.711 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+10-Sep-2019 20:30:48.711 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Sep-2019 20:30:48.711 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+10-Sep-2019 20:30:48.712 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+10-Sep-2019 20:30:48.717 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Sep-2019 20:30:48.718 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:30:48.719 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:30:48.720 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/logging.properties
+10-Sep-2019 20:30:48.721 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Sep-2019 20:30:48.721 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Braulios-MBP
+10-Sep-2019 20:30:48.721 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Sep-2019 20:30:48.721 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Sep-2019 20:30:48.722 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Sep-2019 20:30:48.722 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Sep-2019 20:30:48.722 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:30:48.722 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:30:48.722 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/temp
+10-Sep-2019 20:30:48.722 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/boyarce/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Sep-2019 20:30:49.334 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:30:49.474 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 20:30:49.623 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:30:49.650 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 20:30:49.652 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3121 ms
+10-Sep-2019 20:30:49.838 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+10-Sep-2019 20:30:49.839 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+10-Sep-2019 20:30:49.883 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml]
+10-Sep-2019 20:30:52.414 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml] has finished in [2.517] ms
+10-Sep-2019 20:30:52.416 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] de la aplicación web
+10-Sep-2019 20:30:53.130 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] has finished in [713] ms
+10-Sep-2019 20:30:53.130 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] de la aplicación web
+10-Sep-2019 20:30:53.778 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] has finished in [648] ms
+10-Sep-2019 20:30:53.778 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] de la aplicación web
+10-Sep-2019 20:30:55.104 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] has finished in [1.326] ms
+10-Sep-2019 20:30:55.105 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] de la aplicación web
+10-Sep-2019 20:30:55.601 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] has finished in [496] ms
+10-Sep-2019 20:30:55.602 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] de la aplicación web
+10-Sep-2019 20:30:56.116 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] has finished in [515] ms
+10-Sep-2019 20:30:56.138 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:30:56.155 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:30:56.157 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 6505 ms
+10-Sep-2019 20:31:15.271 INFORMACIÓN [http-nio-8080-exec-6] cl.duoc.dej.controller.LoginServlet.processRequest VALIDATE
+10-Sep-2019 20:31:15.273 INFORMACIÓN [http-nio-8080-exec-6] cl.duoc.dej.controller.LoginServlet.processRequest LOGIN SUCCESS
+10-Sep-2019 20:31:15.274 INFORMACIÓN [http-nio-8080-exec-6] cl.duoc.dej.controller.LoginServlet.processRequest REDIRECT TO HOME
+10-Sep-2019 20:31:23.640 INFORMACIÓN [http-nio-8080-exec-10] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:32:49.628 INFORMACIÓN [http-nio-8080-exec-7] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:32:49.630 ADVERTENCIA [http-nio-8080-exec-7] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: ""
+	java.lang.NumberFormatException: For input string: ""
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:592)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 20:32:55.239 INFORMACIÓN [http-nio-8080-exec-9] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:32:55.240 ADVERTENCIA [http-nio-8080-exec-9] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "fwq"
+	java.lang.NumberFormatException: For input string: "fwq"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 20:32:57.628 INFORMACIÓN [http-nio-8080-exec-10] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:32:57.629 ADVERTENCIA [http-nio-8080-exec-10] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "fwq"
+	java.lang.NumberFormatException: For input string: "fwq"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 20:33:05.289 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+10-Sep-2019 20:33:05.289 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:33:05.302 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:33:05.310 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+10-Sep-2019 20:33:05.408 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:33:05.415 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:33:05.420 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:33:05.422 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:33:12.289 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+10-Sep-2019 20:33:12.293 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+10-Sep-2019 20:33:12.293 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+10-Sep-2019 20:33:12.293 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Sep-2019 20:33:12.293 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+10-Sep-2019 20:33:12.293 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Sep-2019 20:33:12.293 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+10-Sep-2019 20:33:12.293 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+10-Sep-2019 20:33:12.294 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Sep-2019 20:33:12.294 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:33:12.294 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:33:12.295 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/logging.properties
+10-Sep-2019 20:33:12.296 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Sep-2019 20:33:12.296 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Braulios-MBP
+10-Sep-2019 20:33:12.296 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Sep-2019 20:33:12.296 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Sep-2019 20:33:12.296 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Sep-2019 20:33:12.296 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Sep-2019 20:33:12.297 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:33:12.297 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:33:12.297 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/temp
+10-Sep-2019 20:33:12.297 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/boyarce/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Sep-2019 20:33:12.653 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:33:12.696 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 20:33:12.742 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:33:12.746 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 20:33:12.758 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1334 ms
+10-Sep-2019 20:33:12.858 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+10-Sep-2019 20:33:12.858 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+10-Sep-2019 20:33:12.874 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml]
+10-Sep-2019 20:33:14.038 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml] has finished in [1.161] ms
+10-Sep-2019 20:33:14.040 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] de la aplicación web
+10-Sep-2019 20:33:14.381 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] has finished in [341] ms
+10-Sep-2019 20:33:14.383 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] de la aplicación web
+10-Sep-2019 20:33:14.677 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] has finished in [294] ms
+10-Sep-2019 20:33:14.680 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] de la aplicación web
+10-Sep-2019 20:33:15.197 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] has finished in [517] ms
+10-Sep-2019 20:33:15.197 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] de la aplicación web
+10-Sep-2019 20:33:15.386 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] has finished in [189] ms
+10-Sep-2019 20:33:15.386 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] de la aplicación web
+10-Sep-2019 20:33:15.606 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] has finished in [219] ms
+10-Sep-2019 20:33:15.612 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:33:15.627 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:33:15.632 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 2873 ms
+10-Sep-2019 20:33:22.658 INFORMACIÓN [http-nio-8080-exec-8] cl.duoc.dej.controller.LoginServlet.processRequest VALIDATE
+10-Sep-2019 20:33:22.661 INFORMACIÓN [http-nio-8080-exec-8] cl.duoc.dej.controller.LoginServlet.processRequest LOGIN SUCCESS
+10-Sep-2019 20:33:22.661 INFORMACIÓN [http-nio-8080-exec-8] cl.duoc.dej.controller.LoginServlet.processRequest REDIRECT TO HOME
+10-Sep-2019 20:33:30.079 INFORMACIÓN [http-nio-8080-exec-4] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:38:33.804 INFORMACIÓN [http-nio-8080-exec-7] cl.duoc.dej.controller.LoginServlet.processRequest VALIDATE
+10-Sep-2019 20:38:33.805 INFORMACIÓN [http-nio-8080-exec-7] cl.duoc.dej.controller.LoginServlet.processRequest LOGIN SUCCESS
+10-Sep-2019 20:38:33.806 INFORMACIÓN [http-nio-8080-exec-7] cl.duoc.dej.controller.LoginServlet.processRequest REDIRECT TO HOME
+10-Sep-2019 20:38:38.536 INFORMACIÓN [http-nio-8080-exec-2] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:38:38.538 ADVERTENCIA [http-nio-8080-exec-2] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "we"
+	java.lang.NumberFormatException: For input string: "we"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 20:38:51.685 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+10-Sep-2019 20:38:51.686 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:38:51.698 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:38:51.706 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+10-Sep-2019 20:38:51.773 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:38:51.783 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:38:51.788 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:38:51.795 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:38:58.301 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+10-Sep-2019 20:38:58.305 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+10-Sep-2019 20:38:58.306 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+10-Sep-2019 20:38:58.306 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Sep-2019 20:38:58.306 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+10-Sep-2019 20:38:58.306 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Sep-2019 20:38:58.307 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+10-Sep-2019 20:38:58.307 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+10-Sep-2019 20:38:58.307 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Sep-2019 20:38:58.307 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:38:58.307 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:38:58.309 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/logging.properties
+10-Sep-2019 20:38:58.309 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Sep-2019 20:38:58.309 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Braulios-MBP
+10-Sep-2019 20:38:58.309 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Sep-2019 20:38:58.309 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Sep-2019 20:38:58.309 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Sep-2019 20:38:58.310 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Sep-2019 20:38:58.310 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:38:58.310 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:38:58.310 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/temp
+10-Sep-2019 20:38:58.310 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/boyarce/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Sep-2019 20:38:58.602 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:38:58.647 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 20:38:58.692 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:38:58.699 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 20:38:58.700 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1356 ms
+10-Sep-2019 20:38:58.790 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+10-Sep-2019 20:38:58.790 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+10-Sep-2019 20:38:58.808 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml]
+10-Sep-2019 20:39:00.105 GRAVE [localhost-startStop-1] org.apache.catalina.session.StandardManager.startInternal Excepción cargando sesiones desde almacenamiento persistente
+	java.io.StreamCorruptedException: invalid type code: 00
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1601)
+		at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+		at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:561)
+		at java.lang.Throwable.readObject(Throwable.java:914)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1170)
+		at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2178)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+		at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1559)
+		at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1057)
+		at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:217)
+		at org.apache.catalina.session.StandardManager.load(StandardManager.java:161)
+		at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:351)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5182)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1823)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 20:39:00.135 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml] has finished in [1.327] ms
+10-Sep-2019 20:39:00.136 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] de la aplicación web
+10-Sep-2019 20:39:00.598 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] has finished in [462] ms
+10-Sep-2019 20:39:00.599 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] de la aplicación web
+10-Sep-2019 20:39:01.084 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] has finished in [486] ms
+10-Sep-2019 20:39:01.090 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] de la aplicación web
+10-Sep-2019 20:39:02.063 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] has finished in [975] ms
+10-Sep-2019 20:39:02.063 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] de la aplicación web
+10-Sep-2019 20:39:02.359 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] has finished in [296] ms
+10-Sep-2019 20:39:02.361 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] de la aplicación web
+10-Sep-2019 20:39:02.668 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] has finished in [307] ms
+10-Sep-2019 20:39:02.677 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:39:02.694 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:39:02.697 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 3996 ms
+10-Sep-2019 20:39:11.338 INFORMACIÓN [http-nio-8080-exec-5] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:39:11.343 ADVERTENCIA [http-nio-8080-exec-5] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "we"
+	java.lang.NumberFormatException: For input string: "we"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 20:39:26.884 INFORMACIÓN [http-nio-8080-exec-10] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:40:53.999 INFORMACIÓN [http-nio-8080-exec-3] cl.duoc.dej.controller.DeleteRegionServlet.processRequest DELETE REGION
+10-Sep-2019 20:40:55.658 INFORMACIÓN [http-nio-8080-exec-8] cl.duoc.dej.controller.DeleteRegionServlet.processRequest DELETE REGION
+10-Sep-2019 20:40:55.660 ADVERTENCIA [http-nio-8080-exec-8] cl.duoc.dej.controller.DeleteRegionServlet.processRequest No value present
+	java.util.NoSuchElementException: No value present
+		at java.util.Optional.get(Optional.java:135)
+		at cl.duoc.dej.controller.DeleteRegionServlet.processRequest(DeleteRegionServlet.java:51)
+		at cl.duoc.dej.controller.DeleteRegionServlet.doGet(DeleteRegionServlet.java:74)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 20:41:04.286 INFORMACIÓN [http-nio-8080-exec-9] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:41:04.287 ADVERTENCIA [http-nio-8080-exec-9] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "s"
+	java.lang.NumberFormatException: For input string: "s"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 20:41:14.328 INFORMACIÓN [http-nio-8080-exec-2] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:41:14.329 ADVERTENCIA [http-nio-8080-exec-2] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "we"
+	java.lang.NumberFormatException: For input string: "we"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 20:41:19.507 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+10-Sep-2019 20:41:19.508 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:41:19.525 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:41:19.533 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+10-Sep-2019 20:41:19.655 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:41:19.664 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:41:19.668 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:41:19.668 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:41:31.129 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+10-Sep-2019 20:41:31.137 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+10-Sep-2019 20:41:31.137 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+10-Sep-2019 20:41:31.138 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Sep-2019 20:41:31.138 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+10-Sep-2019 20:41:31.139 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Sep-2019 20:41:31.139 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+10-Sep-2019 20:41:31.139 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+10-Sep-2019 20:41:31.139 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Sep-2019 20:41:31.140 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:41:31.140 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:41:31.141 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/logging.properties
+10-Sep-2019 20:41:31.142 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Sep-2019 20:41:31.142 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Braulios-MBP
+10-Sep-2019 20:41:31.142 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Sep-2019 20:41:31.142 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Sep-2019 20:41:31.142 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Sep-2019 20:41:31.142 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Sep-2019 20:41:31.143 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:41:31.144 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:41:31.147 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/temp
+10-Sep-2019 20:41:31.148 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/boyarce/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Sep-2019 20:41:31.525 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:41:31.596 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 20:41:31.624 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:41:31.627 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 20:41:31.633 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1373 ms
+10-Sep-2019 20:41:31.711 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+10-Sep-2019 20:41:31.712 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+10-Sep-2019 20:41:31.731 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml]
+10-Sep-2019 20:41:32.919 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml] has finished in [1.183] ms
+10-Sep-2019 20:41:32.920 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] de la aplicación web
+10-Sep-2019 20:41:33.316 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] has finished in [396] ms
+10-Sep-2019 20:41:33.318 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] de la aplicación web
+10-Sep-2019 20:41:33.702 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] has finished in [385] ms
+10-Sep-2019 20:41:33.703 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] de la aplicación web
+10-Sep-2019 20:41:34.281 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] has finished in [579] ms
+10-Sep-2019 20:41:34.282 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] de la aplicación web
+10-Sep-2019 20:41:34.564 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] has finished in [282] ms
+10-Sep-2019 20:41:34.566 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] de la aplicación web
+10-Sep-2019 20:41:34.870 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] has finished in [304] ms
+10-Sep-2019 20:41:34.876 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:41:34.889 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:41:34.892 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 3258 ms
+10-Sep-2019 20:41:42.205 INFORMACIÓN [http-nio-8080-exec-8] cl.duoc.dej.controller.LoginServlet.processRequest VALIDATE
+10-Sep-2019 20:41:42.207 INFORMACIÓN [http-nio-8080-exec-8] cl.duoc.dej.controller.LoginServlet.processRequest LOGIN SUCCESS
+10-Sep-2019 20:41:42.207 INFORMACIÓN [http-nio-8080-exec-8] cl.duoc.dej.controller.LoginServlet.processRequest REDIRECT TO HOME
+10-Sep-2019 20:41:47.842 INFORMACIÓN [http-nio-8080-exec-4] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:56:41.446 INFORMACIÓN [http-nio-8080-exec-6] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:56:41.447 ADVERTENCIA [http-nio-8080-exec-6] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: ""
+	java.lang.NumberFormatException: For input string: ""
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:592)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 20:56:46.182 INFORMACIÓN [http-nio-8080-exec-5] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:56:46.182 ADVERTENCIA [http-nio-8080-exec-5] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: ""
+	java.lang.NumberFormatException: For input string: ""
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:592)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 20:58:19.420 INFORMACIÓN [http-nio-8080-exec-7] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:58:19.420 ADVERTENCIA [http-nio-8080-exec-7] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: ""
+	java.lang.NumberFormatException: For input string: ""
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:592)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 20:58:47.754 INFORMACIÓN [http-nio-8080-exec-4] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 20:58:47.755 ADVERTENCIA [http-nio-8080-exec-4] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "cxz<"
+	java.lang.NumberFormatException: For input string: "cxz<"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 20:59:13.072 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+10-Sep-2019 20:59:13.073 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:59:13.089 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:59:13.097 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+10-Sep-2019 20:59:13.179 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:59:13.182 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:59:13.188 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:59:13.192 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:59:22.111 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+10-Sep-2019 20:59:22.122 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+10-Sep-2019 20:59:22.122 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+10-Sep-2019 20:59:22.122 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Sep-2019 20:59:22.123 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+10-Sep-2019 20:59:22.123 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Sep-2019 20:59:22.125 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+10-Sep-2019 20:59:22.125 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+10-Sep-2019 20:59:22.125 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Sep-2019 20:59:22.126 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:59:22.126 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:59:22.127 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/logging.properties
+10-Sep-2019 20:59:22.127 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Sep-2019 20:59:22.127 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Braulios-MBP
+10-Sep-2019 20:59:22.127 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Sep-2019 20:59:22.128 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Sep-2019 20:59:22.128 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Sep-2019 20:59:22.128 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=11550,server=y,suspend=n
+10-Sep-2019 20:59:22.128 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Sep-2019 20:59:22.128 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:59:22.128 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 20:59:22.128 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/temp
+10-Sep-2019 20:59:22.129 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/boyarce/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Sep-2019 20:59:22.506 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:59:22.582 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 20:59:22.658 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:59:22.661 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 20:59:22.661 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1746 ms
+10-Sep-2019 20:59:22.784 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+10-Sep-2019 20:59:22.785 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+10-Sep-2019 20:59:22.813 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml]
+10-Sep-2019 20:59:24.407 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml] has finished in [1.593] ms
+10-Sep-2019 20:59:24.413 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] de la aplicación web
+10-Sep-2019 20:59:24.875 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] has finished in [464] ms
+10-Sep-2019 20:59:24.876 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] de la aplicación web
+10-Sep-2019 20:59:25.266 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] has finished in [390] ms
+10-Sep-2019 20:59:25.266 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] de la aplicación web
+10-Sep-2019 20:59:26.928 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] has finished in [1.661] ms
+10-Sep-2019 20:59:26.928 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] de la aplicación web
+10-Sep-2019 20:59:27.207 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] has finished in [279] ms
+10-Sep-2019 20:59:27.209 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] de la aplicación web
+10-Sep-2019 20:59:27.497 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] has finished in [288] ms
+10-Sep-2019 20:59:27.511 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 20:59:27.588 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 20:59:27.609 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 4947 ms
+10-Sep-2019 21:00:07.024 INFORMACIÓN [http-nio-8080-exec-7] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 21:00:07.032 ADVERTENCIA [http-nio-8080-exec-7] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "cxz<"
+	java.lang.NumberFormatException: For input string: "cxz<"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 21:00:20.509 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+10-Sep-2019 21:00:20.510 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 21:00:20.526 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 21:00:20.530 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+10-Sep-2019 21:00:20.656 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 21:00:20.667 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 21:00:20.669 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 21:00:20.671 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 21:00:36.760 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+10-Sep-2019 21:00:36.764 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+10-Sep-2019 21:00:36.765 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+10-Sep-2019 21:00:36.765 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Sep-2019 21:00:36.765 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+10-Sep-2019 21:00:36.765 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Sep-2019 21:00:36.765 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+10-Sep-2019 21:00:36.765 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+10-Sep-2019 21:00:36.766 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Sep-2019 21:00:36.766 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 21:00:36.766 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 21:00:36.767 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/logging.properties
+10-Sep-2019 21:00:36.769 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Sep-2019 21:00:36.770 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Braulios-MBP
+10-Sep-2019 21:00:36.771 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Sep-2019 21:00:36.772 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Sep-2019 21:00:36.772 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Sep-2019 21:00:36.778 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Sep-2019 21:00:36.778 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 21:00:36.778 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43
+10-Sep-2019 21:00:36.778 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/temp
+10-Sep-2019 21:00:36.779 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/boyarce/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Sep-2019 21:00:37.130 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 21:00:37.166 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 21:00:37.244 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 21:00:37.247 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Sep-2019 21:00:37.248 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1496 ms
+10-Sep-2019 21:00:37.353 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+10-Sep-2019 21:00:37.354 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+10-Sep-2019 21:00:37.371 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml]
+10-Sep-2019 21:00:38.838 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/conf/Catalina/localhost/MySite.xml] has finished in [1.458] ms
+10-Sep-2019 21:00:38.840 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] de la aplicación web
+10-Sep-2019 21:00:39.251 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/docs] has finished in [410] ms
+10-Sep-2019 21:00:39.251 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] de la aplicación web
+10-Sep-2019 21:00:39.648 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/manager] has finished in [396] ms
+10-Sep-2019 21:00:39.648 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] de la aplicación web
+10-Sep-2019 21:00:40.464 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/examples] has finished in [815] ms
+10-Sep-2019 21:00:40.464 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] de la aplicación web
+10-Sep-2019 21:00:40.707 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/ROOT] has finished in [242] ms
+10-Sep-2019 21:00:40.707 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] de la aplicación web
+10-Sep-2019 21:00:41.023 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/boyarce/Documents/clases/apache-tomcat-8.5.43/webapps/host-manager] has finished in [316] ms
+10-Sep-2019 21:00:41.034 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 21:00:41.049 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 21:00:41.054 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 3805 ms
+10-Sep-2019 21:01:01.044 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto [/MySite]
+10-Sep-2019 21:01:01.045 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/MySite]
+10-Sep-2019 21:01:01.538 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+10-Sep-2019 21:01:17.964 INFORMACIÓN [http-nio-8080-exec-6] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 21:01:17.966 ADVERTENCIA [http-nio-8080-exec-6] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "ifg"
+	java.lang.NumberFormatException: For input string: "ifg"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 21:01:45.262 INFORMACIÓN [http-nio-8080-exec-3] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 21:01:45.268 ADVERTENCIA [http-nio-8080-exec-3] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "ifg"
+	java.lang.NumberFormatException: For input string: "ifg"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 21:01:55.442 INFORMACIÓN [http-nio-8080-exec-9] cl.duoc.dej.controller.LoginServlet.processRequest VALIDATE
+10-Sep-2019 21:01:55.443 INFORMACIÓN [http-nio-8080-exec-9] cl.duoc.dej.controller.LoginServlet.processRequest LOGIN SUCCESS
+10-Sep-2019 21:01:55.443 INFORMACIÓN [http-nio-8080-exec-9] cl.duoc.dej.controller.LoginServlet.processRequest REDIRECT TO HOME
+10-Sep-2019 21:02:05.872 INFORMACIÓN [http-nio-8080-exec-11] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 21:02:05.873 ADVERTENCIA [http-nio-8080-exec-11] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "k"
+	java.lang.NumberFormatException: For input string: "k"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 21:03:37.815 INFORMACIÓN [http-nio-8080-exec-15] cl.duoc.dej.controller.LoginServlet.processRequest VALIDATE
+10-Sep-2019 21:03:37.816 INFORMACIÓN [http-nio-8080-exec-15] cl.duoc.dej.controller.LoginServlet.processRequest LOGIN SUCCESS
+10-Sep-2019 21:03:37.816 INFORMACIÓN [http-nio-8080-exec-15] cl.duoc.dej.controller.LoginServlet.processRequest REDIRECT TO HOME
+10-Sep-2019 21:03:48.483 INFORMACIÓN [http-nio-8080-exec-22] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 21:03:57.399 INFORMACIÓN [http-nio-8080-exec-23] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 21:03:57.400 ADVERTENCIA [http-nio-8080-exec-23] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "merda"
+	java.lang.NumberFormatException: For input string: "merda"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 21:11:21.652 INFORMACIÓN [http-nio-8080-exec-25] cl.duoc.dej.controller.LoginServlet.processRequest VALIDATE
+10-Sep-2019 21:11:21.653 INFORMACIÓN [http-nio-8080-exec-25] cl.duoc.dej.controller.LoginServlet.processRequest LOGIN SUCCESS
+10-Sep-2019 21:11:21.653 INFORMACIÓN [http-nio-8080-exec-25] cl.duoc.dej.controller.LoginServlet.processRequest REDIRECT TO HOME
+10-Sep-2019 21:11:36.065 INFORMACIÓN [http-nio-8080-exec-22] cl.duoc.dej.controller.CreateRegionServlet.processRequest CREATE REGION
+10-Sep-2019 21:11:36.065 ADVERTENCIA [http-nio-8080-exec-22] cl.duoc.dej.controller.CreateRegionServlet.processRequest For input string: "RM"
+	java.lang.NumberFormatException: For input string: "RM"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Short.parseShort(Short.java:118)
+		at java.lang.Short.valueOf(Short.java:174)
+		at java.lang.Short.valueOf(Short.java:200)
+		at cl.duoc.dej.controller.CreateRegionServlet.processRequest(CreateRegionServlet.java:51)
+		at cl.duoc.dej.controller.CreateRegionServlet.doPost(CreateRegionServlet.java:94)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+10-Sep-2019 21:25:06.698 INFORMACIÓN [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/MySite]
+10-Sep-2019 21:25:07.304 INFORMACIÓN [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+10-Sep-2019 21:25:10.221 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+10-Sep-2019 21:25:10.222 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 21:25:10.237 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 21:25:10.244 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+10-Sep-2019 21:25:10.306 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 21:25:10.313 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Sep-2019 21:25:10.315 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Sep-2019 21:25:10.316 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

@@ -1,0 +1,500 @@
+09-Nov-2019 18:38:15.009 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+09-Nov-2019 18:38:15.012 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+09-Nov-2019 18:38:15.012 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+09-Nov-2019 18:38:15.012 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+09-Nov-2019 18:38:15.015 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+09-Nov-2019 18:38:15.015 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Nov-2019 18:38:15.015 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+09-Nov-2019 18:38:15.015 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+09-Nov-2019 18:38:15.015 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Nov-2019 18:38:15.015 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43
+09-Nov-2019 18:38:15.015 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43
+09-Nov-2019 18:38:15.015 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\conf\logging.properties
+09-Nov-2019 18:38:15.015 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Nov-2019 18:38:15.016 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|user-PC
+09-Nov-2019 18:38:15.016 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Nov-2019 18:38:15.016 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Nov-2019 18:38:15.016 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Nov-2019 18:38:15.016 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43
+09-Nov-2019 18:38:15.016 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43
+09-Nov-2019 18:38:15.016 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\temp
+09-Nov-2019 18:38:15.016 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;.]
+09-Nov-2019 18:38:15.172 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+09-Nov-2019 18:38:15.420 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Nov-2019 18:38:15.436 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+09-Nov-2019 18:38:15.438 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Nov-2019 18:38:15.439 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 826 ms
+09-Nov-2019 18:38:15.521 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+09-Nov-2019 18:38:15.521 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+09-Nov-2019 18:38:15.529 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\conf\Catalina\localhost\MySite.xml]
+09-Nov-2019 18:38:15.560 ADVERTENCIA [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Se ha especificado un docBase [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\webapps\Users\boyarce\Downloads\MySite\build\web] dentro del appBase de la máquina y será ignorado
+09-Nov-2019 18:38:15.584 GRAVE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/MySite]]
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1823)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at java.lang.Thread.run(Thread.java:745)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@51882768]
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4814)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4949)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+		... 10 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\webapps\MySite] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+		... 13 more
+09-Nov-2019 18:38:15.585 GRAVE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\conf\Catalina\localhost\MySite.xml]
+	java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/MySite]]
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:747)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1823)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 18:38:15.588 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\conf\Catalina\localhost\MySite.xml] has finished in [57] ms
+09-Nov-2019 18:38:15.589 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\conf\Catalina\localhost\NumeroUno.xml]
+09-Nov-2019 18:38:15.601 ADVERTENCIA [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Se ha especificado un docBase [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\webapps\Users\boyarce\Desktop\pruebas\NumeroUno\build\web] dentro del appBase de la máquina y será ignorado
+09-Nov-2019 18:38:15.604 GRAVE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/NumeroUno]]
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1823)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at java.lang.Thread.run(Thread.java:745)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6054e736]
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4814)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4949)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+		... 10 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\webapps\NumeroUno] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+		... 13 more
+09-Nov-2019 18:38:15.605 GRAVE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\conf\Catalina\localhost\NumeroUno.xml]
+	java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/NumeroUno]]
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:747)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1823)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 18:38:15.605 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\conf\Catalina\localhost\NumeroUno.xml] has finished in [16] ms
+09-Nov-2019 18:38:15.606 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\webapps\docs] de la aplicación web
+09-Nov-2019 18:38:16.355 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\webapps\docs] has finished in [749] ms
+09-Nov-2019 18:38:16.355 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\webapps\examples] de la aplicación web
+09-Nov-2019 18:38:16.725 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\webapps\examples] has finished in [370] ms
+09-Nov-2019 18:38:16.725 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\webapps\host-manager] de la aplicación web
+09-Nov-2019 18:38:16.870 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\webapps\host-manager] has finished in [145] ms
+09-Nov-2019 18:38:16.870 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\webapps\manager] de la aplicación web
+09-Nov-2019 18:38:16.986 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\webapps\manager] has finished in [116] ms
+09-Nov-2019 18:38:16.986 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\webapps\ROOT] de la aplicación web
+09-Nov-2019 18:38:17.091 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\webapps\ROOT] has finished in [105] ms
+09-Nov-2019 18:38:17.094 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+09-Nov-2019 18:38:17.103 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+09-Nov-2019 18:38:17.108 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 1668 ms
+09-Nov-2019 18:38:46.120 INFORMACIÓN [http-nio-8081-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\conf\Catalina\localhost\Presentacion.xml]
+09-Nov-2019 18:38:46.492 INFORMACIÓN [http-nio-8081-exec-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Nov-2019 18:38:46.500 INFORMACIÓN [http-nio-8081-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\user\Desktop\duoc\prueba2\prueba\apache-tomcat-8.5.43\conf\Catalina\localhost\Presentacion.xml] has finished in [380] ms
+09-Nov-2019 18:38:46.509 INFORMACIÓN [http-nio-8081-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Presentacion]] after start() had already been called. The second call will be ignored.
+09-Nov-2019 18:38:46.751 INFORMACIÓN [http-nio-8081-exec-4] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Presentacion]
+09-Nov-2019 18:38:47.146 INFORMACIÓN [23] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Nov-2019 18:38:47.151 INFORMACIÓN [23] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+09-Nov-2019 18:40:20.718 GRAVE [http-nio-8081-exec-11] controller.LoginServlet.<init> null
+	com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+		at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+		at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+		at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2197)
+		at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+		at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+		at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+		at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+		at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+		at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+		at java.sql.DriverManager.getConnection(DriverManager.java:664)
+		at java.sql.DriverManager.getConnection(DriverManager.java:247)
+		at cl.duoc.dej.dao.ConexionDAO.<init>(ConexionDAO.java:26)
+		at cl.duoc.dej.dao.ConexionDAO.getConnection(ConexionDAO.java:31)
+		at cl.duoc.dej.dao.UtilDAO.<init>(UtilDAO.java:23)
+		at cl.duoc.dej.dao.UsuarioDAO.<init>(UsuarioDAO.java:19)
+		at cl.duoc.dej.negocio.LoginNegocio.<init>(LoginNegocio.java:20)
+		at controller.LoginServlet.<init>(LoginServlet.java:32)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1032)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:763)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:134)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:589)
+		at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+		at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+		... 44 more
+09-Nov-2019 18:40:20.781 INFORMACIÓN [http-nio-8081-exec-11] controller.LoginServlet.processRequest VALIDATE
+09-Nov-2019 18:40:20.782 INFORMACIÓN [http-nio-8081-exec-11] controller.LoginServlet.processRequest USER -> admin
+09-Nov-2019 18:40:20.782 INFORMACIÓN [http-nio-8081-exec-11] controller.LoginServlet.processRequest PASS -> 123456
+09-Nov-2019 18:40:45.250 INFORMACIÓN [http-nio-8081-exec-12] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Presentacion]
+09-Nov-2019 18:40:45.262 ADVERTENCIA [http-nio-8081-exec-12] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Presentacion] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+09-Nov-2019 18:40:45.262 ADVERTENCIA [http-nio-8081-exec-12] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Presentacion] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+09-Nov-2019 18:40:45.263 ADVERTENCIA [http-nio-8081-exec-12] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Presentacion] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 18:40:45.537 INFORMACIÓN [http-nio-8081-exec-12] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Nov-2019 18:40:45.544 INFORMACIÓN [http-nio-8081-exec-12] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+09-Nov-2019 18:40:45.553 INFORMACIÓN [http-nio-8081-exec-3] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Presentacion]
+09-Nov-2019 18:40:45.887 INFORMACIÓN [http-nio-8081-exec-3] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Nov-2019 18:40:45.892 INFORMACIÓN [http-nio-8081-exec-3] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+09-Nov-2019 18:40:46.397 INFORMACIÓN [http-nio-8081-exec-17] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Presentacion]
+09-Nov-2019 18:40:46.645 INFORMACIÓN [http-nio-8081-exec-17] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Nov-2019 18:40:46.652 INFORMACIÓN [http-nio-8081-exec-17] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+09-Nov-2019 18:40:48.526 INFORMACIÓN [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1032)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 18:40:49.103 INFORMACIÓN [http-nio-8081-exec-5] controller.LoginServlet.processRequest VALIDATE
+09-Nov-2019 18:40:49.104 INFORMACIÓN [http-nio-8081-exec-5] controller.LoginServlet.processRequest USER -> admin
+09-Nov-2019 18:40:49.104 INFORMACIÓN [http-nio-8081-exec-5] controller.LoginServlet.processRequest PASS -> 123456
+09-Nov-2019 18:40:49.119 INFORMACIÓN [http-nio-8081-exec-5] controller.LoginServlet.processRequest LOGIN SUCCESS
+09-Nov-2019 18:40:49.119 INFORMACIÓN [http-nio-8081-exec-5] controller.LoginServlet.processRequest REDIRECT TO HOME
+09-Nov-2019 18:40:59.458 INFORMACIÓN [http-nio-8081-exec-12] controller.CreateTipoServlet.createTipo CREATE TIPO
+09-Nov-2019 18:43:01.634 INFORMACIÓN [http-nio-8081-exec-21] controller.CreateTipoServlet.createTipo CREATE TIPO
+09-Nov-2019 18:43:35.627 INFORMACIÓN [http-nio-8081-exec-25] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Presentacion]
+09-Nov-2019 18:43:35.632 ADVERTENCIA [http-nio-8081-exec-25] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Presentacion] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+09-Nov-2019 18:43:35.632 ADVERTENCIA [http-nio-8081-exec-25] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Presentacion] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+09-Nov-2019 18:43:35.633 ADVERTENCIA [http-nio-8081-exec-25] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Presentacion] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 18:43:35.845 INFORMACIÓN [http-nio-8081-exec-25] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Nov-2019 18:43:35.849 INFORMACIÓN [http-nio-8081-exec-25] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+09-Nov-2019 18:43:36.708 INFORMACIÓN [http-nio-8081-exec-23] controller.CreateTipoServlet.createTipo CREATE TIPO
+09-Nov-2019 18:43:38.934 INFORMACIÓN [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1032)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 18:44:13.275 INFORMACIÓN [http-nio-8081-exec-28] controller.CreateTipoServlet.createTipo CREATE TIPO
+09-Nov-2019 18:45:09.015 INFORMACIÓN [http-nio-8081-exec-30] controller.CreateTipoServlet.createTipo CREATE TIPO
+09-Nov-2019 18:48:34.872 INFORMACIÓN [http-nio-8081-exec-29] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Presentacion]
+09-Nov-2019 18:48:34.878 ADVERTENCIA [http-nio-8081-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Presentacion] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+09-Nov-2019 18:48:34.879 ADVERTENCIA [http-nio-8081-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Presentacion] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+09-Nov-2019 18:48:34.879 ADVERTENCIA [http-nio-8081-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Presentacion] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 18:48:35.191 INFORMACIÓN [http-nio-8081-exec-29] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Nov-2019 18:48:35.195 INFORMACIÓN [http-nio-8081-exec-29] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+09-Nov-2019 18:48:36.672 INFORMACIÓN [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1032)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 18:48:45.045 INFORMACIÓN [http-nio-8081-exec-39] controller.CreateTipoServlet.createTipo CREATE TIPO
+09-Nov-2019 18:52:58.933 INFORMACIÓN [http-nio-8081-exec-40] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Presentacion]
+09-Nov-2019 18:52:58.936 ADVERTENCIA [http-nio-8081-exec-40] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Presentacion] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+09-Nov-2019 18:52:58.936 ADVERTENCIA [http-nio-8081-exec-40] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Presentacion] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+09-Nov-2019 18:52:58.937 ADVERTENCIA [http-nio-8081-exec-40] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Presentacion] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 18:52:59.137 INFORMACIÓN [http-nio-8081-exec-40] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Nov-2019 18:52:59.141 INFORMACIÓN [http-nio-8081-exec-40] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+09-Nov-2019 18:52:59.948 INFORMACIÓN [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1032)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 18:53:24.472 INFORMACIÓN [http-nio-8081-exec-42] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Presentacion]
+09-Nov-2019 18:53:24.664 INFORMACIÓN [http-nio-8081-exec-42] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Nov-2019 18:53:24.668 INFORMACIÓN [http-nio-8081-exec-42] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+09-Nov-2019 18:53:25.574 INFORMACIÓN [http-nio-8081-exec-42] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Presentacion]
+09-Nov-2019 18:53:25.784 INFORMACIÓN [http-nio-8081-exec-42] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Nov-2019 18:53:25.787 INFORMACIÓN [http-nio-8081-exec-42] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+09-Nov-2019 18:53:33.516 INFORMACIÓN [http-nio-8081-exec-42] controller.LoginServlet.processRequest VALIDATE
+09-Nov-2019 18:53:33.516 INFORMACIÓN [http-nio-8081-exec-42] controller.LoginServlet.processRequest USER -> admin
+09-Nov-2019 18:53:33.516 INFORMACIÓN [http-nio-8081-exec-42] controller.LoginServlet.processRequest PASS -> 123456
+09-Nov-2019 18:53:33.530 INFORMACIÓN [http-nio-8081-exec-42] controller.LoginServlet.processRequest LOGIN SUCCESS
+09-Nov-2019 18:53:33.530 INFORMACIÓN [http-nio-8081-exec-42] controller.LoginServlet.processRequest REDIRECT TO HOME
+09-Nov-2019 18:53:39.327 INFORMACIÓN [http-nio-8081-exec-41] controller.CreateTipoServlet.createTipo CREATE TIPO
+09-Nov-2019 18:53:39.328 INFORMACIÓN [http-nio-8081-exec-41] cl.duoc.dej.dao.TipoDAO.buscarTodo EJECUCIÓN -> SELECT CODIGO, NOMBRE FROM TIPO 
+09-Nov-2019 19:00:50.902 INFORMACIÓN [http-nio-8081-exec-54] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Presentacion]
+09-Nov-2019 19:00:50.909 ADVERTENCIA [http-nio-8081-exec-54] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Presentacion] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+09-Nov-2019 19:00:50.910 ADVERTENCIA [http-nio-8081-exec-54] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Presentacion] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+09-Nov-2019 19:00:50.910 ADVERTENCIA [http-nio-8081-exec-54] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Presentacion] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 19:00:51.110 INFORMACIÓN [107] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Nov-2019 19:00:51.115 INFORMACIÓN [107] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+09-Nov-2019 19:00:53.482 INFORMACIÓN [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1032)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 19:01:30.877 INFORMACIÓN [http-nio-8081-exec-62] controller.CreateTipoServlet.createTipo CREATE TIPO
+09-Nov-2019 19:01:30.878 ADVERTENCIA [http-nio-8081-exec-62] controller.CreateTipoServlet.createTipo null
+	java.lang.NullPointerException
+		at controller.CreateTipoServlet.createTipo(CreateTipoServlet.java:79)
+		at controller.CreateTipoServlet.doPost(CreateTipoServlet.java:127)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 19:04:13.787 INFORMACIÓN [http-nio-8081-exec-64] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Presentacion]
+09-Nov-2019 19:04:13.791 ADVERTENCIA [http-nio-8081-exec-64] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Presentacion] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+09-Nov-2019 19:04:13.791 ADVERTENCIA [http-nio-8081-exec-64] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Presentacion] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+09-Nov-2019 19:04:13.791 ADVERTENCIA [http-nio-8081-exec-64] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Presentacion] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 19:04:14.009 INFORMACIÓN [http-nio-8081-exec-64] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Nov-2019 19:04:14.013 INFORMACIÓN [http-nio-8081-exec-64] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+09-Nov-2019 19:04:15.710 INFORMACIÓN [127] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1032)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 19:05:45.439 INFORMACIÓN [http-nio-8081-exec-67] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Presentacion]
+09-Nov-2019 19:05:45.686 INFORMACIÓN [http-nio-8081-exec-67] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Nov-2019 19:05:45.694 INFORMACIÓN [http-nio-8081-exec-67] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+09-Nov-2019 19:08:27.986 INFORMACIÓN [http-nio-8081-exec-71] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Presentacion]
+09-Nov-2019 19:08:28.209 INFORMACIÓN [http-nio-8081-exec-71] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Nov-2019 19:08:28.213 INFORMACIÓN [http-nio-8081-exec-71] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+09-Nov-2019 19:08:47.319 INFORMACIÓN [http-nio-8081-exec-76] controller.CreateTipoServlet.createTipo CREATE TIPO
+09-Nov-2019 19:08:47.320 ADVERTENCIA [http-nio-8081-exec-76] controller.CreateTipoServlet.createTipo null
+	java.lang.NullPointerException
+		at controller.CreateTipoServlet.createTipo(CreateTipoServlet.java:79)
+		at controller.CreateTipoServlet.doPost(CreateTipoServlet.java:127)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 19:08:53.335 INFORMACIÓN [http-nio-8081-exec-75] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Presentacion]
+09-Nov-2019 19:08:53.339 ADVERTENCIA [http-nio-8081-exec-75] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Presentacion] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+09-Nov-2019 19:08:53.339 ADVERTENCIA [http-nio-8081-exec-75] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Presentacion] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+09-Nov-2019 19:08:53.340 ADVERTENCIA [http-nio-8081-exec-75] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Presentacion] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 19:08:53.528 INFORMACIÓN [http-nio-8081-exec-75] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Nov-2019 19:08:53.532 INFORMACIÓN [http-nio-8081-exec-75] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+09-Nov-2019 19:08:57.086 INFORMACIÓN [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1032)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 19:09:03.293 INFORMACIÓN [http-nio-8081-exec-79] controller.LoginServlet.processRequest VALIDATE
+09-Nov-2019 19:09:03.293 INFORMACIÓN [http-nio-8081-exec-79] controller.LoginServlet.processRequest USER -> admin
+09-Nov-2019 19:09:03.293 INFORMACIÓN [http-nio-8081-exec-79] controller.LoginServlet.processRequest PASS -> 123456
+09-Nov-2019 19:09:03.306 INFORMACIÓN [http-nio-8081-exec-79] controller.LoginServlet.processRequest LOGIN SUCCESS
+09-Nov-2019 19:09:03.306 INFORMACIÓN [http-nio-8081-exec-79] controller.LoginServlet.processRequest REDIRECT TO HOME
+09-Nov-2019 19:09:19.665 INFORMACIÓN [http-nio-8081-exec-67] controller.CreateTipoServlet.createTipo CREATE TIPO
+09-Nov-2019 19:09:19.666 ADVERTENCIA [http-nio-8081-exec-67] controller.CreateTipoServlet.createTipo null
+	java.lang.NullPointerException
+		at controller.CreateTipoServlet.createTipo(CreateTipoServlet.java:79)
+		at controller.CreateTipoServlet.doPost(CreateTipoServlet.java:127)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 19:10:29.959 INFORMACIÓN [http-nio-8081-exec-82] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Presentacion]
+09-Nov-2019 19:10:29.963 ADVERTENCIA [http-nio-8081-exec-82] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Presentacion] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+09-Nov-2019 19:10:29.963 ADVERTENCIA [http-nio-8081-exec-82] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [Presentacion] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+09-Nov-2019 19:10:29.964 ADVERTENCIA [http-nio-8081-exec-82] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Presentacion] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 19:10:30.159 INFORMACIÓN [http-nio-8081-exec-82] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Nov-2019 19:10:30.163 INFORMACIÓN [http-nio-8081-exec-82] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+09-Nov-2019 19:10:33.114 INFORMACIÓN [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1032)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at java.lang.Thread.run(Thread.java:745)
+09-Nov-2019 19:12:59.440 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+09-Nov-2019 19:12:59.440 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+09-Nov-2019 19:12:59.547 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+09-Nov-2019 19:12:59.614 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+09-Nov-2019 19:12:59.629 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+09-Nov-2019 19:12:59.630 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+09-Nov-2019 19:12:59.631 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+09-Nov-2019 19:12:59.632 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

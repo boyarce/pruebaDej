@@ -1,0 +1,127 @@
+20-Aug-2019 21:58:39.137 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+20-Aug-2019 21:58:39.139 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+20-Aug-2019 21:58:39.139 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+20-Aug-2019 21:58:39.140 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+20-Aug-2019 21:58:39.141 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+20-Aug-2019 21:58:39.141 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Aug-2019 21:58:39.141 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_91\jre
+20-Aug-2019 21:58:39.141 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_91-b15
+20-Aug-2019 21:58:39.141 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Aug-2019 21:58:39.141 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Desarrollo_de_Software\apache-tomcat-8.5.43
+20-Aug-2019 21:58:39.142 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Desarrollo_de_Software\apache-tomcat-8.5.43
+20-Aug-2019 21:58:39.142 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Desarrollo_de_Software\apache-tomcat-8.5.43\conf\logging.properties
+20-Aug-2019 21:58:39.142 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Aug-2019 21:58:39.142 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|TH020100
+20-Aug-2019 21:58:39.142 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Aug-2019 21:58:39.142 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Aug-2019 21:58:39.143 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Aug-2019 21:58:39.143 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Desarrollo_de_Software\apache-tomcat-8.5.43
+20-Aug-2019 21:58:39.143 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Desarrollo_de_Software\apache-tomcat-8.5.43
+20-Aug-2019 21:58:39.143 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Desarrollo_de_Software\apache-tomcat-8.5.43\temp
+20-Aug-2019 21:58:39.143 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Git\cmd;C:\python;c:\python;c:\python\Scripts\;;C:\Users\CETECOM\AppData\Local\Programs\Microsoft VS Code\bin;.]
+20-Aug-2019 21:58:39.384 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Aug-2019 21:58:39.469 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2019 21:58:39.483 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2019 21:58:39.492 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2019 21:58:39.493 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 729 ms
+20-Aug-2019 21:58:39.528 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+20-Aug-2019 21:58:39.528 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+20-Aug-2019 21:58:39.547 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\docs] de la aplicación web
+20-Aug-2019 21:58:40.053 ADVERTENCIA [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [115] milliseconds.
+20-Aug-2019 21:58:40.068 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\docs] has finished in [521] ms
+20-Aug-2019 21:58:40.068 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\examples] de la aplicación web
+20-Aug-2019 21:58:40.321 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\examples] has finished in [252] ms
+20-Aug-2019 21:58:40.321 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\host-manager] de la aplicación web
+20-Aug-2019 21:58:40.437 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\host-manager] has finished in [116] ms
+20-Aug-2019 21:58:40.438 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\manager] de la aplicación web
+20-Aug-2019 21:58:40.548 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\manager] has finished in [110] ms
+20-Aug-2019 21:58:40.548 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\ROOT] de la aplicación web
+20-Aug-2019 21:58:40.659 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\ROOT] has finished in [110] ms
+20-Aug-2019 21:58:40.666 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Aug-2019 21:58:40.802 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2019 21:58:40.809 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 1315 ms
+20-Aug-2019 21:58:46.853 ADVERTENCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:47.024 ADVERTENCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:47.190 ADVERTENCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:48.121 ADVERTENCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:48.292 ADVERTENCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:48.448 ADVERTENCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:48.704 ADVERTENCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:48.875 ADVERTENCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:49.049 ADVERTENCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:49.205 ADVERTENCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:49.368 ADVERTENCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:49.542 ADVERTENCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:49.693 ADVERTENCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:49.862 ADVERTENCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:50.040 ADVERTENCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:55.832 ADVERTENCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:56.397 ADVERTENCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:56.607 ADVERTENCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:56.742 ADVERTENCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:56.910 ADVERTENCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:57.070 ADVERTENCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:57.256 ADVERTENCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:57.444 ADVERTENCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:58:59.700 ADVERTENCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autentica al usuario bloqueado [tomcat]
+20-Aug-2019 21:59:00.379 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+20-Aug-2019 21:59:00.380 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Aug-2019 21:59:00.469 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2019 21:59:00.555 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+20-Aug-2019 21:59:00.579 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Aug-2019 21:59:00.580 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2019 21:59:00.581 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Aug-2019 21:59:00.581 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2019 21:59:32.340 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+20-Aug-2019 21:59:32.342 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+20-Aug-2019 21:59:32.342 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+20-Aug-2019 21:59:32.342 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+20-Aug-2019 21:59:32.343 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+20-Aug-2019 21:59:32.343 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Aug-2019 21:59:32.343 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_91\jre
+20-Aug-2019 21:59:32.343 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_91-b15
+20-Aug-2019 21:59:32.343 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Aug-2019 21:59:32.343 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Desarrollo_de_Software\apache-tomcat-8.5.43
+20-Aug-2019 21:59:32.343 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Desarrollo_de_Software\apache-tomcat-8.5.43
+20-Aug-2019 21:59:32.343 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Desarrollo_de_Software\apache-tomcat-8.5.43\conf\logging.properties
+20-Aug-2019 21:59:32.343 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Aug-2019 21:59:32.343 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|TH020100
+20-Aug-2019 21:59:32.343 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Aug-2019 21:59:32.343 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Aug-2019 21:59:32.343 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Aug-2019 21:59:32.344 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Desarrollo_de_Software\apache-tomcat-8.5.43
+20-Aug-2019 21:59:32.344 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Desarrollo_de_Software\apache-tomcat-8.5.43
+20-Aug-2019 21:59:32.344 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Desarrollo_de_Software\apache-tomcat-8.5.43\temp
+20-Aug-2019 21:59:32.344 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Git\cmd;C:\python;c:\python;c:\python\Scripts\;;C:\Users\CETECOM\AppData\Local\Programs\Microsoft VS Code\bin;.]
+20-Aug-2019 21:59:32.516 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Aug-2019 21:59:32.573 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2019 21:59:32.582 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2019 21:59:32.586 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2019 21:59:32.587 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 548 ms
+20-Aug-2019 21:59:32.617 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+20-Aug-2019 21:59:32.618 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+20-Aug-2019 21:59:32.629 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\docs] de la aplicación web
+20-Aug-2019 21:59:33.044 ADVERTENCIA [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [102] milliseconds.
+20-Aug-2019 21:59:33.059 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\docs] has finished in [430] ms
+20-Aug-2019 21:59:33.059 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\examples] de la aplicación web
+20-Aug-2019 21:59:33.317 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\examples] has finished in [257] ms
+20-Aug-2019 21:59:33.317 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\host-manager] de la aplicación web
+20-Aug-2019 21:59:33.450 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\host-manager] has finished in [133] ms
+20-Aug-2019 21:59:33.450 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\manager] de la aplicación web
+20-Aug-2019 21:59:33.542 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\manager] has finished in [91] ms
+20-Aug-2019 21:59:33.542 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\ROOT] de la aplicación web
+20-Aug-2019 21:59:33.606 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\webapps\ROOT] has finished in [64] ms
+20-Aug-2019 21:59:33.608 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Aug-2019 21:59:33.620 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2019 21:59:33.636 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 1049 ms
+20-Aug-2019 21:59:35.312 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\conf\Catalina\localhost\MySite.xml]
+20-Aug-2019 21:59:35.423 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Desarrollo_de_Software\apache-tomcat-8.5.43\conf\Catalina\localhost\MySite.xml] has finished in [111] ms
+20-Aug-2019 21:59:35.427 INFORMACIÓN [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/MySite]] after start() had already been called. The second call will be ignored.
+20-Aug-2019 21:59:49.828 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+20-Aug-2019 21:59:49.828 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Aug-2019 21:59:49.912 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2019 21:59:49.993 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+20-Aug-2019 21:59:50.028 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Aug-2019 21:59:50.030 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2019 21:59:50.031 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Aug-2019 21:59:50.032 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
